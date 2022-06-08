@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("img/univers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.txt {
+  color: silver;
+  margin-top: 2em;
+  text-align: center;
+  text-shadow: 3px 3px 20px #99a0ff, -2px 1px 30px #99a0ff;
+}
+.txt2 {
+  color: silver;
+  text-align: center;
+  margin-top: -0.5em;
+  text-shadow: 3px 3px 20px #99a0ff, -2px 1px 30px #99a0ff;
+}
+
+.planete {
+  text-align: center;
+}
+.planete > input {
+  border: 0.15rem solid black;
+  padding: 0.15rem;
+  border-radius: 15px;
+  text-align: center;
+}
+.planets {
+  width: 13em;
+  border: 0.15rem solid black;
+  padding: 0.15rem;
+  border-radius: 15px;
+  text-align-last: center;
+}
+
+.img-holder {
+  background-color: rgba(0, 0, 0, 0);
+  display: block;
+  height: 300px;
+  width: 300px;
+  margin: 40px auto;
+}
+
+.btn {
+  width: 9rem;
+  margin-top: 0.25em;
+  padding: 0.15rem;
+  border: 0.15rem solid black;
+  border-radius: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+#myList {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+  text-shadow: 3px 3px 20px #99a0ff, -2px 1px 30px #99a0ff;
+}
+#myList > li {
+  font-weight: 800;
+  font-size: 1.5rem;
+}

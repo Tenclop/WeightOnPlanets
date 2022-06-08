@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Planets</title>
+  </head>
+  <body onload="onload();">
+    <h1 class="txt">Have you wonder what's you weight on other planets?</h1>
+    <br />
+    <h1 class="txt2">Well let's take a look.</h1>
+
+    <form class="planete">
+      <input
+        type="text"
+        class="input"
+        id="input"
+        name="Winput"
+        placeholder="Mass in kg"
+      />
+      <select class="planets" id="planets">
+        <option value="select">--- select planet ---</option>
+        <option value="mercury">Mercury</option>
+        <option value="venus">Venus</option>
+        <option value="mars">Mars</option>
+        <option value="jupiter">Jupiter</option>
+        <option value="saturn">Saturn</option>
+        <option value="uranus">Uranus</option>
+        <option value="neptune">Neptune</option>
+      </select>
+      <button type="button" class="btn" id="btn" value="click">
+        <!-- onclick=" return calculateW()" -->
+        Calculate weight
+      </button>
+      <div class="img-holder"></div>
+      <li id="myList"></li>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
