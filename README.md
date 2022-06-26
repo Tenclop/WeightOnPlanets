@@ -37,7 +37,7 @@ Weight = Mass x Surface Gravity
   # Go into the repository
   $ cd WeightOnPlanets
   
-  # Run the app/ website/ game
+  # Run the app/ website/
   $ start index.html
   ```
   </p>
